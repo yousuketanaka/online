@@ -19,6 +19,7 @@
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/js/basictable/basictable.css">
+    
 
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" rel="stylesheet">
 
@@ -46,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo home_url(); ?><?php echo home_url(); ?>">0nline Business Japanese</a>
+                <a class="navbar-brand" href="<?php echo home_url(); ?>">0nline Business Japanese</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,7 +56,7 @@
                         <a href="<?php echo home_url(); ?>">TOP</a>
                     </li>
                     <li>
-                        <a href="<?php echo home_url(); ?>/booking">予約</a>
+                        <a href="<?php echo home_url(); ?>/reservation">予約</a>
                     </li>
                     <li>
                         <a href="<?php echo home_url(); ?>/pricing">料金</a>

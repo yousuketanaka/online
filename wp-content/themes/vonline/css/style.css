@@ -843,7 +843,71 @@ footer{
 }
 
 
+/*.form > .button_div > .buttons{*/
+/*    background-color: #b8d200;*/
+/*    border: 1px solid #b8d200;*/
+/*    color: #fff;*/
+/*}*/
 
+.buttons{
+    background-color: #b8d200;
+    border: 1px solid #b8d200;
+    color: #fff;
+}
+
+.widget .widget_admins_menu li{
+    list-style: none;
+    margin-bottom: 24px;/*ウィジェット下の余白*/
+    display: block;
+    border: 2px dotted #ccc;/*ウィジェット周囲の枠線の指定 太さ 線の形状 線の色*/
+    padding: 16px;/*中のコンテンツと周囲の線との余白*/
+    line-height: 24px;/*文字列の行の高さ*/
+}
+
+.sidebar-title{
+    border: 1px solid #ea5506;
+    background-color: #ea5506;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#olb-admins-menu li{
+    list-style: none;
+    margin: 0.8em 0em;
+    text-align: left;
+}
+
+
+
+
+table.olb_calendar, th, tr, td{
+    border: 1px solid #e4d2d8;
+}
+
+
+table.olb_calendar td{
+    height: 3em;
+}
+
+
+.daily_schedule tr{
+    height: 4em;
+}
+
+
+.facebookArea iframe{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+}
+
+
+.visual-form-builder .vfb-legend h3 {
+    font-size: 0.8em;
+}
 
 
 
@@ -1170,34 +1234,3 @@ h3.flowTitle {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

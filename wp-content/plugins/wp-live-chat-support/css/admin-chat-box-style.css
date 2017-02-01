@@ -1,0 +1,10 @@
+#wpcontent {
+    margin-left:10px;
+}
+
+.typing_indicator {
+    height: 11px;
+    margin-left: 10px;
+    font-style: italic;
+    color: grey !important;
+}

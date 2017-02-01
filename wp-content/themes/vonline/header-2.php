@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="">
-
-    <title>オンラインビジネス日本語コース</title>
+    <title><?php wp_title('｜', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="js/basictable/basictable.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/js/basictable/basictable.css">
+    
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,11 +30,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<?php wp_head(); ?>
 </head>
+
+
 <div class="wrap">
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -47,31 +47,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">0nline Business Japanese</a>
+                <a class="navbar-brand" href="<?php echo home_url(); ?>">0nline Business Japanese</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">TOP</a>
+                　　<li>
+                        <a href="<?php echo home_url(); ?>">TOP</a>
                     </li>
                     <li>
-                        <a href="booking.html">予約</a>
+                        <a href="<?php echo home_url(); ?>/reservation">予約</a>
                     </li>
                     <li>
-                        <a href="pricing.html">料金</a>
+                        <a href="<?php echo home_url(); ?>/pricing">料金</a>
                     </li>
                     <li>
-                        <a href="contact.html">問い合わせ</a>
+                        <a href="<?php echo home_url(); ?>/contact">問い合わせ</a>
                     </li>
                     <li>
-                        <a href="blog.html">ブログ</a>
+                        <a href="<?php echo home_url(); ?>/blog">ブログ</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">その他<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="offline.html">OFF-LINE COURSE</a>
+                                <a href="<?php echo home_url(); ?>/offline">OFF-LINE COURSE</a>
                             </li>
                         </ul>
                     </li>
@@ -81,6 +81,7 @@
         </div>
         <!-- /.container -->
     </nav>
+
 
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
