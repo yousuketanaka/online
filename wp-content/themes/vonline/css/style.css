@@ -559,6 +559,8 @@ button.corporateArea a{
 	text-decoration: none;
     text-align: center;
     color: #fff;
+    display: block;
+    margin-top: 0.8em;
 }
 
 button.loginArea{
@@ -573,16 +575,8 @@ button.loginArea{
 }
 
 
-
-button.corporateArea{
-	display: block;
-	padding: 1.3em;
-	border: 1px solid #d7cf3a;
-	background-color: #d7cf3a;
-	margin: 0 auto;
-	margin-top: 0.3em;
-	width: 80%;
-	font-size: 1.2em;
+#olb-admins-menu ul{
+    padding-left: 0em;
 }
 
 
@@ -776,7 +770,11 @@ table.pricetable img{
 }
 
 header.carousel {
-     height: 20em;
+     height: 22em;
+}
+
+header.carousel2 {
+     height: 13em;
 }
 
 .navbar-inverse .navbar-brand {
@@ -843,13 +841,13 @@ footer{
 }
 
 
-/*.form > .button_div > .buttons{*/
-/*    background-color: #b8d200;*/
-/*    border: 1px solid #b8d200;*/
-/*    color: #fff;*/
-/*}*/
+.edit_schedule tr{
+    height: 3em;
+}
 
-.buttons{
+.buttons,
+.vfb-submit,
+#edit_schedule .submit{
     background-color: #b8d200;
     border: 1px solid #b8d200;
     color: #fff;
@@ -864,12 +862,22 @@ footer{
     line-height: 24px;/*文字列の行の高さ*/
 }
 
-.sidebar-title{
-    border: 1px solid #ea5506;
-    background-color: #ea5506;
+.btn-login{
+    border: 1px solid #274a78;
+    background-color: #274a78;
     color: #fff;
     padding: 0.5em;
     text-align: center;
+    width: 80%;
+}
+
+.btn-login:hover{
+    background-color: #0f2350;
+    color: #fff;
+}
+
+tr.trcolor_2{
+    background-color: #fffffc;
 }
 
 #olb-admins-menu li{
@@ -878,7 +886,9 @@ footer{
     text-align: left;
 }
 
-
+article.panel p{
+    display: none;
+}
 
 
 table.olb_calendar, th, tr, td{
@@ -905,11 +915,21 @@ table.olb_calendar td{
 }
 
 
-.visual-form-builder .vfb-legend h3 {
+#item-vfb-13 h3,
+#item-vfb-2 h3{
     font-size: 0.8em;
+    border: none;
+    background-color: #F3F3F2;
+    text-align: left;
+    color: #000;
 }
 
 
+#wpmem_reg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 

@@ -56,7 +56,7 @@
                         <a href="<?php echo home_url(); ?>">TOP</a>
                     </li>
                     <li>
-                        <a href="<?php echo home_url(); ?>/reservation">予約</a>
+                        <a href="<?php echo home_url(); ?>/booking">予約</a>
                     </li>
                     <li>
                         <a href="<?php echo home_url(); ?>/pricing">料金</a>
@@ -84,7 +84,7 @@
 
 
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel2 slide">
         <div class="container">
             <div class="page-slide"><?php the_title(); ?></div>
         </div>

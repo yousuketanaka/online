@@ -29,6 +29,14 @@
         interval: 5000 //changes the speed
     })
     </script>
+    <script>
+document.tidioIdentify = {
+	distinct_id: '1',
+	email: 'bambooshoots.vietnam@mail.com',
+	first_name: 'Yousuke',
+	last_name: 'Tanaka'
+};
+</script>
 <?php wp_footer(); ?>
 </body>
 </div>
